@@ -28,13 +28,14 @@ RUN_SPEC = {
 
         # Frontier anchors. These help stabilize pairwise judgments and make
         # the run less dependent on the local OCT population judging itself.
-        "Claude Sonnet Anchor": "anthropic/claude-sonnet-4",
-        "GPT Anchor": "openai/gpt-4.1",
+        "Gemini 2.5 Pro Anchor": "google/gemini-2.5-pro",
+        "Claude 4 Sonnet Anchor": "anthropic/claude-sonnet-4",
+        "GPT-4o Anchor": "openai/gpt-4o",
     },
     "dataset": {
-        "path": "data/scenarios/loving_sycophancy_boundary_v2.json",
+        "path": "data/scenarios/loving_sycophancy_tension_v0.json",
         "start": 0,
-        "count": 40,
+        "count": 50,
         "shuffle": False,
         "shuffle_seed": 42,
     },
